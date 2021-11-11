@@ -34,4 +34,4 @@ If you want to make a **user-based** site, you don't create a folder in an exist
 
 - The repo *itself* must be named **`username.github.io`**. See [step 3 in GitHub's directions.](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)
 - You do not need to create any subfolders. If you want to serve your site from **`username.github.io`**, your code should live right in the root of this new repo. 
-- You do not need to give your code branch any special name; "master" is fine. I happened to call my branch "gh-pages" because a tutorial suggested doing so. I now realize that this was pointless. 
+- You do not need to give your code branch any special name; "main" ([not "master"](https://github.com/github/renaming)) is fine. I happened to call my branch "gh-pages" because a tutorial suggested doing so. I now realize that this was pointless. 
