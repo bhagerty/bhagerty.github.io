@@ -31,9 +31,12 @@ $ sudo apt install libreadline-dev
 $ sudo apt install libedit-dev
 $ sudo gem install io-wait -v 0.1.0 
 ```
-Once this is done, go ahead and run `gem udpate` or `sudo gem update`. 
-- [The Jekyll docs suggest](https://jekyllrb.com/docs/troubleshooting/#no-sudo) that using `sudo` is a bad idea because you end up installing packages systemwide. But it's what I did.
+Once this is done, go ahead and run `gem udpate` ~~or `sudo gem update`~~. 
+- ~~[The Jekyll docs suggest](https://jekyllrb.com/docs/troubleshooting/#no-sudo) that using `sudo` is a bad idea because you end up installing packages systemwide. But it's what I did.~~
 - I got an error about `io-wait` that I ignored because I don't think it's fixable, and I hope it won't matter. 
+
+**Update**: Using `sudo` to install or update gems truly is a terrible idea, as [Moncef Belyamani explains](https://www.moncefbelyamani.com/why-you-should-never-use-sudo-to-install-ruby-gems/). So I had to unwind some of what I did. I made a [new post, part 1.1 of this series,]() about how I unwound it. 
+
 
 Next, you can install `bundler` and `jekyll` in a one-line statement:
 ```bash
