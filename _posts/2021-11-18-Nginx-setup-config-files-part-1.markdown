@@ -7,12 +7,12 @@ categories:
 
 ## Nginx configuration files - conventions
 
-[Nginx](https://nginx.org/) is controlled by a set of plain-text configuration files. Instructions on the web about these files are confusing because the conventions about them have changed over time. According to a [2017 video from Nginx](https://www.youtube.com/watch?v=Ln1CPel3ALQ&t=466s), there are the main files and directories:
+[Nginx](https://nginx.org/) is controlled by a set of plain-text configuration files. Instructions on the web about these files are confusing because the conventions about them have changed over time. According to a [2017 video from Nginx](https://www.youtube.com/watch?v=Ln1CPel3ALQ&t=466s), these are the main files and directories:
 
 - `/etc/nginx/` - top-level directory for all configuration files
-- `/etc/nginx/nginx.conf` - server-level configuration that "should not need much modification"
+- `/etc/nginx/nginx.conf` - server-level configuration file that "should not need much modification"
     - *What does "not much" modification mean? Surely this could be made clearer.*
-    - *The [Nginx beginner's guide](https://nginx.org/en/docs/beginners_guide.html) misleadingly* tells you *to modify this file. Open source is awesome, but open-source documentation is not.*
+    - *The [Nginx beginner's guide](https://nginx.org/en/docs/beginners_guide.html) misleadingly* tells you *to modify this file.*
 - **`/etc/nginx/conf.d/`** - directory that holds site-specific `.conf` files, such as `mysite.conf`
     - files in this directory are pulled into the server configuration by this line inside `nginx.conf`:
         - `include /etc/nginx/conf.d/*.conf;`
