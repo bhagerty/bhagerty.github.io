@@ -27,7 +27,7 @@ And when Nginx is used in combination with Django, the conventional location for
 ```
 (*Note:* If you're using shared hosting, you will only have access to your user-specific `home` directory, and your web server will serve files from some subdirectory of `home`, not a subdirectory of `var`.)
 
-## Directories, ownership, and permissions - my s
+## Directories, ownership, and permissions
 
 For purposes of learning Nginx and getting it up and running:
 
