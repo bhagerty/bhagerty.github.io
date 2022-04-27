@@ -12,7 +12,7 @@ This caused problems later, so I decided to unwind things. Two terrific blog pos
 
 In the ruby-installation guide, Moncef recommends using a Ruby installation manager, such as `rbenv` or `chruby` (see [the Ruby docs](https://www.ruby-lang.org/en/documentation/installation/#installers)). 
 
-But for me, that ship had sailed. I had already installed Ruby systemwide using the Ubuntu package manager (`apt-get install` etc.). I didn't want to unwind that. So I chose Moncef's third, non-recommended option: 
+But for me, that ship had sailed. I had already installed Ruby systemwide using the Ubuntu package manager (`apt install` etc.). I didn't want to unwind that. So I chose Moncef's third, non-recommended option: 
 
 - **Enable user-based (non-`sudo`) installation of gems despite having a system-wide install of Ruby.** 
 

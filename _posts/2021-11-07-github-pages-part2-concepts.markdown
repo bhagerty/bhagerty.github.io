@@ -2,7 +2,7 @@
 layout: post
 title:  "GitHub Pages concepts (GHP Part 2)"
 date:   2021-11-07 13:02:01 -0500
-categories: 
+categories: jekyll
 ---
 In my [first post](/2021/11/06/github-page-about-github-pages.html) about GitHub Pages, I jumped right into setting up [Ruby](https://www.ruby-lang.org/en/) and [Jekyll](https://jekyllrb.com/) on Windows, using the [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/about) and Ubuntu 20.04. 
 
