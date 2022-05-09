@@ -35,7 +35,7 @@ To disable this behavior, go to *Start→Manage App Execution Aliases* and **tur
 
 To avoid magic, [download Python directly](https://www.python.org/downloads/). You can install as many versions as you like. The order of installation doesn't really matter, though (as discussed below) it may affect the behavior of `py.exe`, the Python launcher.
 
-## Step 3: Install Python in user directory, with launcher
+## Step 3: Install Python in a user directory, with launcher
 
 By default, when you install Python with an installer from [python.org](https://www.python.org/downloads/):
 
@@ -137,7 +137,7 @@ If for some reason VS Code does *not* detect your virtual environment, you can m
 
 ### The `pyenv` project
 
-There is a whole project, **[pyenv for Windows](https://pyenv-win.github.io/pyenv-win/)**, specifically designed to allow you to manage multiple versions of Python on Windows. It's an impressive piece of work, and if it interests you, check out a [very detailed Real Python tutorial](https://realpython.com/intro-to-pyenv/) on using it.
+There is a whole project, [pyenv for Windows](https://pyenv-win.github.io/pyenv-win/), specifically designed to allow you to manage multiple versions of Python on Windows. It's an impressive piece of work, and if it interests you, check out a [very detailed Real Python tutorial](https://realpython.com/intro-to-pyenv/) on using it.
 
 I prefer not to use it for two reasons:
 
