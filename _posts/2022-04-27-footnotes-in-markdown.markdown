@@ -2,7 +2,7 @@
 layout: post
 title:  "Footnotes in Markdown"
 date:   2022-04-27 18:02:01 -0500
-categories: markdown
+categories:
 ---
 Markdown is weirdly limited, and you can't easily create footnotes. You can, however, fake them.<a id="a1"></a><sup>[1](#f1)</sup> This post builds on [a StackOverflow post](https://stackoverflow.com/questions/25579868/how-to-add-footnotes-to-github-flavoured-markdown) and [Seamus Demora's post on Github](https://github.com/seamusdemora/seamusdemora.github.io/blob/master/GFM_FootnotesWithReturnFeature.md).
 

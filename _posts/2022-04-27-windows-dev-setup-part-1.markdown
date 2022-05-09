@@ -2,7 +2,7 @@
 layout: post
 title:  "Setting up a Windows dev machine in 2022 (part 1)"
 date:   2022-04-27 11:02:01 -0500
-categories: windows, wsl
+categories:
 ---
 I recently retired my 7-year-old laptop in favor of a (refurbished) beast of a Dell laptop that I got for software development and media creation. Here, I summarize setting up:
 

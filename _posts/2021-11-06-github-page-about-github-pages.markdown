@@ -2,7 +2,7 @@
 layout: post
 title:  "A GitHub Page about setting up GitHub Pages (GHP Part 1)"
 date:   2021-11-06 18:40:01 -0500
-categories: jekyll, ruby, wsl
+categories:
 ---
 There's lots of information online about how to use [GitHub](https://docs.github.com/en/pages) Pages and [Jekyll](https://jekyllrb.com/) to serve a website, but inevitably, the information is incomplete. Here's some of what I learned while getting my GitHub Pages Jekyll site going.
 
